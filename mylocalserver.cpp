@@ -70,7 +70,7 @@ void MyLocalServer::slotReadClient()
             in >> nextBlockSize;
         }
 
-        // Извлекаем из потока дату и строку
+        // Извлекаем из потока время и строку
         QTime time;
         QString string;
         in >> time >> string;
